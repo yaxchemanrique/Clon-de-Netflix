@@ -1,0 +1,135 @@
+html{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background: rgba(0,0,0,.4) url('https://assets.nflxext.com/ffe/siteui/vlv3/87a1d9d8-a21d-4109-ba3a-c10d9055f5cf/250fce75-963a-4be7-b321-b6600d78cc39/MX-en-20220307-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    background-size: no-repeat;
+    background-blend-mode: darken;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    
+}
+body{
+    display: flex;
+    flex-direction:column;
+}
+nav{
+     padding-top: 20px;
+     padding-left: 30px; 
+ }
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+center{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 76vh;
+}
+.sign-in{
+    background-color: rgba(0,0,0,.75);
+    padding: 60px;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 6rem;
+}
+label{
+    align-self: flex-start;
+}
+input[type=email], 
+input[type=password]{
+    border: none;
+    background-color:#333 ;
+    color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    height: 3rem;
+    width: 100%;
+    margin: 10px;   
+    text-indent: 15px;
+}
+input[type=submit]{
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 100%;
+    height: 3rem;
+    font-size: 18px;
+}
+input[type=checkbox]{
+    accent-color: #737373;
+    float: left;
+    margin-right: 0.3rem;
+}
+.checkbox-label{
+    float: left;
+}
+.help{
+    float: right;
+}
+.PainInTheAss{
+    margin-bottom: 3rem;
+}
+.other-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.other-info img{
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.other-info > p:nth-of-type(2),
+.menu{
+    font-size: 13px;
+}
+.other-info > p,
+footer * {
+    color:#737373;
+}
+.blue-color{ 
+    color: #0071eb;
+}
+footer{
+    background-color: rgba(0,0,0,.75);
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    height: 100%;
+    margin-top: auto;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2rem;
+    justify-content: left;
+    margin-left: 0rem;
+}
+.menu li{
+    list-style: none;
+    width: 18%;
+    min-width: max-content; 
+    padding-left: 0;  
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.dropdown1{
+    margin-top: 40px;
+}
